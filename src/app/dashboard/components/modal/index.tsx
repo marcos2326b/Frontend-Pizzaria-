@@ -36,12 +36,6 @@ export function ModalOrder() {
 
           {order.map((item) => (
             <section className={styles.item} key={item.id}>
-              <Image
-              src={item.product.banner}
-              alt="Foto do produto"
-              width={70}
-              height={70}
-              />
               <span>
                 Qtd: {item.amount} -{" "}
                 <b>
